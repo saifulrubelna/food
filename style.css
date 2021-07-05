@@ -1,0 +1,10 @@
+.blue-color{
+color:white;
+background-color: darkslategrey;
+height: 40px;
+
+}
+.links:hover{
+  background-color:black;
+}
+}
