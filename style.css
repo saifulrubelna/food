@@ -7,7 +7,7 @@ height: 40px;
 .links:hover{
   background-color:black;
 }
-}
+
 body{
   font-family: 'Poppins', sans-serif;
 }
@@ -17,7 +17,7 @@ font-size: 40px;
 .orange-color{
   color: orangered;
 }
-section{
+.flexible-container{
   display: flex;
 }
 .half-width{
@@ -26,6 +26,7 @@ section{
 }
 .half-width img{
   width: 100%;
+
 }
 .link-button{
   text-decoration: none;
@@ -34,9 +35,37 @@ section{
  font-weight: 700;
   padding: 10px 40px;
   border-radius: 5px;
-
 }
 .top-banner{
   background-image: url(food-network-main/images/shapes/Frame\ 58.jpg);
   background-repeat: no-repeat;
+}
+.About-us{
+  background-image: url(food-network-main/images/shapes/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+}
+.experience-item{
+  box-shadow:10px 10px 30px grey;
+  width: 28%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 20px;
+  font-size: 14pxp;
+  padding: 20px;
+}
+.img-food{
+  width: 345px;
+  padding: 2px 2px;
+  border-radius:20px;
+}
+.font-center{
+
+text-align: center;
+}
+
+.black-banner{
+  background-image: url(food-network-main/images/shapes/black\ banner.jpg);
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
 }
